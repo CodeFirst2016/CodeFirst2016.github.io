@@ -61,7 +61,7 @@ a:link {
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0);
     color: #ffffff;
     padding: 12px 17px 10px;
     border-radius: 0px;
@@ -76,7 +76,7 @@ a:visited {
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     padding: 12px 17px 10px;
     border-radius: 0px;
@@ -91,7 +91,7 @@ a:hover {
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(0, 0, 0, 0.8);
     color: #ffffff;
     padding: 12px 17px 10px;
     border-radius: 0px;
@@ -106,8 +106,8 @@ a:active {
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.8);
-    color: #F64C3F;
+    background-color: #F64C3F;
+    color: #ffffff;
     padding: 12px 17px 10px;
     border-radius: 0px;
     cursor: pointer;
