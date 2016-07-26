@@ -1,20 +1,42 @@
-page-block {
-    max-width: 700px
+.page-block {
+    position: relative;
+    margin: auto;
+    max-width: 700px;
     padding: 40px;
     }   
 
 h1 {
 	color: black;
-    text-align: center;
+    text-align: left;
     font-size: 50px;
+    line-height: 100%;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 	}
 
+h2 {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    }
+
+h3 {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    }
+
 p   {
 	color: black;
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 100%;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
 	}
@@ -22,15 +44,14 @@ p   {
 
 ul li {
     color: black;
-    text-align: center;
-    font-size: 14px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 200%;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     }
 
 
-.session1, .session3, .session3 {
-	padding: 50px;
-
-}
+.session1, .session2, .session3, .session4 {
+    }
