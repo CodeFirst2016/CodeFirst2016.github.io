@@ -61,7 +61,7 @@ a:link {
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color: rgba(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding: 12px 17px 10px;
     border-radius: 0px;
