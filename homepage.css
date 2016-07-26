@@ -10,6 +10,7 @@ h1 {
     font-size: 40px;
     line-height: 150%;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
 	}
 
 h2 {
@@ -28,19 +29,20 @@ h3 {
     font-family: 'Roboto', sans-serif;
     }
 
-h3 {
+h4 {
     color: black;
     text-align: left;
     font-size: 15px;
     line-height: 150%;
     font-family: 'Roboto', sans-serif;
+    color: #aaaaaa;
     }
 
 
 p   {
 	color: black;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 150%;
     font-family: 'Roboto', sans-serif;
 	}
@@ -49,74 +51,59 @@ p   {
 ul li {
     color: black;
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 200%;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     }
 
-a:link {
+ul {-webkit-padding-start: 0px;}  
+
+
+
+
+button {
     text-decoration: none;
     position: relative;
     display: inline-block;
     text-align: center;
-    background-color: rgba(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
-    padding: 12px 17px 10px;
+    font-size: 14px;
+    padding: 10px 20px 12px;
     border-radius: 0px;
     cursor: pointer;
+    border-radius: 0px;
+    border: 0px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:visited {
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #ffffff;
-    padding: 12px 17px 10px;
-    border-radius: 0px;
-    cursor: pointer;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
+    color: #F64C3F;
 }
 
 a:hover {
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.8);
-    color: #ffffff;
-    padding: 12px 17px 10px;
-    border-radius: 0px;
-    cursor: pointer;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
+    color: #F64C3F;
 }
 
 a:active {
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    background-color: #F64C3F;
-    color: #ffffff;
-    padding: 12px 17px 10px;
-    border-radius: 0px;
-    cursor: pointer;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
+    color: #F64C3F;
 }
 
 
-.session1, .session2, .session3, .session4 {
-    padding-bottom: 50px;
+
+.intro, .session0, .session1, .session2, .session3, .session4, .session5, .session6, .session7, .session8 {
+    margin-bottom: 100px;
     }
