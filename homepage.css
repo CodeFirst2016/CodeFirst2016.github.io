@@ -1,0 +1,31 @@
+h1 {
+	color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+	}
+
+p   {
+	color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+	}
+
+
+ul li {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    }
+
+
+.session1, .session3, .session3 {
+	padding: 50px;
+
+}
