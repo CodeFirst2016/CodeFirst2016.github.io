@@ -230,31 +230,31 @@
 
 
     .input {
-        background-color: #ffffff;
-        max-width: 500px;
-        color: #000000;
-        padding: 10px 20px 12px;
-        font-size: 14px;
-        border-radius: 0px;
-        border: 0px;
-        }
+    background-color: #ffffff;
+    max-width: 500px;
+    color: #000000;
+    padding: 10px 20px 12px;
+    font-size: 14px;
+    border-radius: 0px;
+    border: 0px;
+    }
 
-        .socialicons a {
-        color: #ffffff;
-        margin-left: 20px;
-        }
+    .socialicons a {
+    color: #ffffff;
+    margin-left: 20px;
+    }
 
-        .socialicons a:hover {
-        opacity: 50%;
-        }
+    .socialicons a:hover {
+    opacity: 50%;
+    }
 
 
-        .form-control {
-        max-width: 500px;
-        height: 44px;
-        border-radius: 0px;
-        border: none;
-        margin-right: 20px;
+    .form-control {
+    max-width: 500px;
+    height: 44px;
+    border-radius: 0px;
+    border: none;
+    margin-right: 20px;
     }
 
     .input-group {
