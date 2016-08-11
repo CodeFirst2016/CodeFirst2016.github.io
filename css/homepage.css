@@ -8,6 +8,13 @@
         max-width: 600px;
     }
 
+    .class-header h1, h2, h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #F64C3F;
+        line-height: 80%;
+        max-width: 600px;
+
+    }
 
     h1 {        
         font-size: 55px;   
@@ -21,6 +28,18 @@
     h3 {
         font-size: 30px; 
         }
+
+    .class-typography h1 {
+        font-size: 45px;     
+
+    }
+    .class-typography h2 {
+        font-size: 30px;     
+
+    }
+    .class-typography h3 {
+        font-size: 20px;     
+    }
 
     h4, p {
         font-family: 'Inconsolata';
@@ -41,12 +60,25 @@
 
 
     ul li {
-    color: #F64C3F;
-    font-size: 18px;
-    line-height: 200%;
-    font-family: 'Inconsolata';
-    list-style-type: none;
+        color: #F64C3F;
+        font-size: 18px;
+        line-height: 200%;
+        font-family: 'Inconsolata';
+        list-style-type: none;
     } 
+
+    ol li {
+        color: #F64C3F;
+        font-size: 18px;
+        line-height: 200%;
+        font-family: 'Inconsolata';
+    }
+
+
+    ol span {
+        color: #FFFFFF;
+        background-color: #F64C3F;
+    }
 
 
 /* Nav */
@@ -156,6 +188,27 @@
         color: #212121;
         }
 
+    .task a {
+        color: #FFFFFF;
+    }
+
+    .task a:hover {
+        color: #000000;
+    }
+
+    .whats-css a {
+        color: #F64C3F; 
+        cursor: pointer;
+        text-decoration: none;  
+    }
+
+    .whats-css a:hover {
+        color: #000000;
+        text-decoration: none;  
+    }   
+
+
+
 /* Content */
     .intro {
         padding-top: 40px;
@@ -190,6 +243,48 @@
         padding-bottom: 120px;
         }
 
+    .class-page-block  {
+        position: relative;
+        margin: auto;
+        max-width: 700px;
+        border-top: 2px #f2f2f2 solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+
+
+    .class-example {
+        position: relative;
+        margin: auto;
+        max-width: 700px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .tab1 p {
+        position: relative;
+        margin: auto;
+        max-width: 700px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tab2 p {
+        position: relative;
+        margin: auto;
+        max-width: 700px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    .tab3 p {
+        position: relative;
+        margin: auto;
+        max-width: 700px;
+        padding-left: 70px;
+        padding-bottom: 20px;
+    }
+
 
 
 /* Events */
@@ -213,6 +308,18 @@
         margin: auto;
     }
 
+/* Examples */
+
+    .class-example p {
+        color: #FFFFFF;
+        line-height: 100%;
+        font-size: 15px;  
+
+    }
+    .class-example {
+        background-color: #F64C3F
+    }
+    
 
 /* Footer */
 
