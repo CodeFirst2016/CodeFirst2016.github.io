@@ -53,6 +53,13 @@ button {
     padding: 6px 20px 10px;
 }
 
+button a {
+    color: #ffffff;
+}
+
+button a:hover {
+    color: #ffffff;
+}
 
 button:hover {background-color: #383838;}
 
