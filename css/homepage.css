@@ -103,6 +103,17 @@ a:active {
 
 /* Class 2 */
 
+ 
+.homework-video {
+       display: block;
+       position: relative;
+       margin: auto;
+       left: 7.5%;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       border-top: 2px #ffffff solid;
+   }
+
 .page-block, 
 .page-block-classes  {
     position: relative;
