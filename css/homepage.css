@@ -54,6 +54,11 @@ button {
 }
 
 
+button a {
+    color: #ffffff;
+}
+
+
 button:hover {background-color: #383838;}
 
 .page-block-classes button {margin-top: 20px;}
