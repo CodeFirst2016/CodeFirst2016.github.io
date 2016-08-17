@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+    <meta name="author" content="">
+    <title>Homepage</title>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="css/bootstrap/css/font-awesome.min.css">
+    <!-- Bootstrap theme -->
+	<link href="css/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+	<link href="css/homepage.css" rel="stylesheet">
+    <!-- JS -->
+	    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	    <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-- NavBar -->
+<nav id="Navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Code First Girls</a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes <span class="caret"></span></a>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML Basics</a></li>
+                        <li><a href="#">CSS Basics</a></li>
+                        <li><a href="#">GitHub Basics</a></li>
+                        <li><a href="#">APIs & Frameworks</a></li>
+                        <li><a href="#">Bootstrap Basics</a></li>
+                        <li><a href="#">jQuery Basics</a></li>
+                        <li><a href="#">Website Metrics & Hosting</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="About.html">About</a></li>
+                <li><a href="BraveWomen.html">Brave Women</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><button type="submit" class="btn btn-default">Start coding</button></li> 
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<!-- Content -->
+<div class="class-page-block">
+	<div class="class-header">
+		<div class="class-typography">
+		<h1>Session 1:HTML Basics</h1>
+		</div>
+	</div>
+</div>
+
+	
+<div class ="class-page-block">
+	<div class="class_typography">
+	<div class="what we will learn">
+	<h3>What we will learn</h3>
+
+<ul id="class_list">
+	<li>How websites are made.</li>
+	<li>How to put your own webpage.</li>
+	<li>Basic skills and tools that will be useful for any coding you do.</li>
+	<li> We hope you will become curious about how the interent works and look at websites in a different way.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="class-page-block">
+	<div class="class_typography">
+		<h3> How courses will be run</h3>
+
+		<p>The hardest thing about learning to program is knowing where to start and what to learn.</p>
+
+		<p>The course aims to provide a basic overview of the technologies used, along with the tools and resources to discover more.</p>
+
+		<p>The focus of this course is learning the basics of how and why things work and to provide the basis to build upon in future courses. We will not be able to cover everything in great depth or comprehensive detail.</p>
+
+		<p>Sessions will be as hands-on and practical as possible. Each week there will be a number of tasks to do in between the sessions to reinforce what you have learnt.</p>
+
+		<p>It's up to you whether you do the tasks or not, but the more you put in the more you will get out! If you are ever in doubt, <a href="http://lmgtfy.com/?q=how+do+i+use+google">Google it</a>, check <a href="http://lmgtfy.com/?q=how+do+i+use+stackoverflow">Stack Overflow</a>, ask the person beside you, or ask one of us!</p>
+
+		<p>These notes a re super wordy for the sake of reference, and not everything will be covered in class - the point is to have a useful place for you to come back and remind yourself of the things you have learnt in class, and more.</p>  
+
+		<p>Now,let's check that you've installed all the right software and signed up for Github and the Student Developer Pack!</p>
+
+</div>
+</div>
+
+<div class="class-page-block">
+	<h3>In this lession</h3>
+
+	<p>Before we go on to make our websites, it is worth taking some time to think about how the web works, and look at the big picture of how websites are made.</p>
+</div>
+
+
+<div class="class-page-block">
+
+	<h2>Chapter 1 - What makes a website?</h2>
+
+	<h4>Content:</h4>
+
+	<p>A website is a collection of linked webpages (and their associated resources); a set of related files that is compatible to your browser.</p>
+
+	<p>A web-page is just a file that your web browser is able to read and display, written in a markup language; HTML.</p>  
+
+	<p>The  website's main webpage (or point of entry) is referred to as the homepage, or a landing page. This is predefined, and its document name must be set as index.html.</p>  
+
+	<p>To display the page on the client-side device, a browser starts out by reading the HTML. This is why additional resources, such as CSS and JS, are written in dedicated documents and are 'plugged in' or linked into HTML documents, as we will see later.</p>
+
+	<p>A typical webpage depends on several technologies (such as CSS, JavaScript, Flash, AJAX, JSON) to control what the end-user sees, but most fundamentally, developers write webpages in HTML, without which there can be no webpages. A ssociated (additional) resources can be embedded into your HTML file. These include, and are not limited to:</p>
+
+	<ol>
+		<li>page scripts; CSS (Cascading StyleSheets)</li>
+		<li>scripts - for interactivity; JavaScript</li>
+		<li> media - videos,music, etc.</li>
+	</ol>
+
+	<p>You can think of a website as a very sophisticated letter, which you can interact with. And as you'll find out, the Internet is like a very sophisticated postal service. When you visit a URL, a complete packaged folder of documents is sent to you. Can anyone think of any potential ramifications of this?</p>
+
+	<h4>Demo:</h4>
+
+	<p>Here is a <a href=<a href="http://codepen.io/dianaklee/pen/PPoEoe_blank"> demonstration</a>, of how additional resources can affect the HTML document.Recap from course prep the role of each language and do a Q&A of languages - ask what they think each language does to the page and clarify.etc.</p>
+</div>
+
+<div class="class-page-block">
+
+	<h3>Viewing HTML, CSSS and JS of any given wepage online.</h3>
+
+	<p>Because the web document files are sent to your browser, it is easy for you to look at them. There are no secrets in HTML, CSS or JavaScript.​ If there's a part of a webpage that you like, it's easy to find out how it is coded and use the technique yourself.</p>
+
+	<p>Every browser provides a way to look at the source of the page you're currently viewing. In Chrome you do View > Developer > View Source. This will show you the raw HTML but isn't always the easiest thing to look at.</p>
+
+	<p>Several browsers also provide developer tools, which allow you to <em>interactively</em> view the page source. In Chrome you can access these by doing View > Developer > Developer Tools. If you use Firefox, you can get similar functionality with the Firebug plugin.</p>
+
+	<p>These tools are the best way to investigate a web page. Over the course you will be using them a lot on your own pages, especially when things aren't working exactly as you expect.</p>
+
+	<p>There are a few features of the Chrome developer tools that it is worth pointing out now.</p>
+
+</div>
+
+<div class='class-page-block'>
+		<h3>Task:</h3>
+			<ol>
+			<li>Open any website in Google Chrome, or the Code First: Girls website</li>
+			<li>View the page source by doing one of the following:</li>
+			<li>View > Developer > View Source Tools> View Source</li>
+			<li>Open the developer tools by doing any one of the following:</li>
+			<li>View> Developer> Developer Tools Tools> Developer Tools </li>
+			<li>Use the square with a pointer in the bottom left to hover over bits of the page and find the related HTML.</li>
+			<li>Hover over the HTML code in the developer tools box and watch as different parts of the page are highlighted.</li>
+			<li>Try changing some of the CSS on the right hand side. To undo any changes just refresh the page.</li>
+			<li>Have a look on the Resources tab. See if you can find the CSS, javascript and images files used on this page.</li>
+			<li>Visit a few of your favourite websites and repeat this process</li>
+		</ol>
+
+</div>
+
+<div class="class-page-block">
+
+	<h2>Chapter 2 - How does the Internet work?</h2>
+	<p>Before we dive into coding, it is worth thinking about how the websites we are coding are shared online... How does someone find your website? How do we publish our websites for other people to find? Don't worry! You won't be tested or anything, this is really just for your info/reference, and to give some knowledge and context to the websites we're building.  These notes complement the video you watched last week. More video resources are in the 'Extra Resources' section if you don't like reading.</p>
+
+	<div class="homework-video">
+
+	<iframe width="560" height="315" display:"inline-block" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<p>Computers connected to the Web are called clients and servers.</p>
+
+	<p>The computers that hold web pages, sites and applications are called servers.Web servers are large, specialised computers that are (almost) permanently connected to the internet.</p>
+
+	<p>The computers that allow people to access the web by providing software (browsers) for them to do so are called clients. They are the typical user's Internet-connected device, for example - your laptop or mobile phone, connected to the internet through a browser.</p>
+
+	<p>Servers respond to requests sent to them by clients. The Internet Iis the network layer that makes the Web possible, it lies on top of a very complex hardware infrastructure, which allows us to communicate by sending files to each other. We won't be covering the latter (the hardware) in this course.</p>
+
+	<p>You can think of the Internet like the postal service, Royal Mail, on steroids.</p>
+
+	<p>Information from a client application is packaged nicely into easily transported, segmented, data packets containing information about where the data should be sent,​ and sent over a websocket (using the TCP/IP or UDP/IP protocol), we then use special tiny computers called routers, which acts as the default gateway to the rest of the Internet, and has only one job - to establish the route taken by the data packets.</p>
+
+	<p>To connect routers to each other, and to the internet, we make use of radio waves over WiFi (802.11), and Ethernet over existing telephone infrastructure by using modems, and connect our network,​ to an Internet Service Provider (ISP)​ - company that manages special routers which all link together and can access special routers of other ISPs.</p>
+
+</div>
+
+
+<div class="class-page-block">
+
+	<h2>Chapter 3 - How the Web Works </h2>
+
+	<p>How does the router know where to send your (client) requests? Many of our web interactions begin with a URL (uniform resource locator)​being typed into our web browser address bar.</p>
+
+	<p>Let's look at an example: <a href="http://www.bbc.co.uk/news"> http:/www.bbc.co.uk/news/</a></p>
+
+	<p>This URL has several different parts to it:</p>
+
+		<ul>
+			<li><strong>http:</strong> the protocol or how the fetch the information</li>
+			<li><strong>www.bbc.co.uk:</strong> the host or where to fetch it from</li>
+			<li><strong>/news:</strong> the path or precisely what information to fetch </li>
+		</ul>
+
+	<p>When we type the URL into the address bar a request is sent over the internet and some information is returned to us.</p>
+
+	<p>The protocol describes how the information is transmitted. Other possibilities include https for secured communcation, ftp for file transfer and git which you'll learn about later.</p>
+
+	<p>The host describes where the information should come from and the path tells that location precisely what information to send.</p>
+
+	<p>In general a URL can be more complicated than this. URLs can also contain query parameters, fragements and port information. We will leave these for now but will point them out when we meet them later. Instead we will focus on exactly what information is being sent and who is sending it.</p>
+
+	<p>Each computer on the internet has an address (an IP address) so that requests can be sent to it and files returned - much like a telephone number. The backbone of the internet is a network of routers that are responsible for routing files from one IP address to another.</p>
+
+</div>
+
+
+<div class="class-page-block">
+	<h3>DNS</h3>
+
+	<p>IP addresses are a sequence of (octets) numbers and . such as 213.123.245.98. ​Every computer has an internal and public-facing IP address for the sake of security. As servers (computers which host and run the code for a website) are commonly switched, or run in parallel, or may be back-ups, IP addresses change often. IP addresses are also difficult and tedious to remember, so the internet works on a domain name system, that matches domain names such as google.com to IP addresses. Most companies, such as Google, own a range of IP addresses because the different services they provide run on different servers which usually have back-ups. All of Google's are configured to lead back to their home page if entered into a browser, which is a neat site reliability & security trick.</p>
+</div>
+
+<div class="class-page-block">
+	<h4>Task:</h4>
+
+	<p> Type 216.58.213.110 into your browser's address bar. What happens?</p>
+
+	<p>One of the first things that happens when you type a URL into your browser is a DNS lookup:​ your computer contacts a DNS server (Domain Name System server), which is basically a massive address book of IP addresses. The DNS server converts the domain name from the URL (e.g. google.com) into an address for a server (such as 213.123.245.98).</p>
+
+	<p>Once the address of the web server has been found your request is forwarded on to it, the web server will interpret your request and send back one or more files.</p>
+
+</div>
+
+<div class="class-page-block">
+
+	<h3>Static vs dynamic sites</h3>
+
+	<p>There are two main possibilities server-side: either your site is static or dynamic.</p>
+		<ul>
+			<li>In a static site, all pages are pre-prepared and the web server just sends them to the browser.</li>
+			<li>In a dynamic site, pages are prepared on-the-fly pulling information out of a database depending on what the user asked for.</li>
+		</ul>
+	<p>Most of the sites you can think of will be dynamic sites (e.g. facebook.com, reddit.com, amazon.com, ..).</p>
+</div>
+
+<div class="class-page-block">
+
+	<h3>Server-side technologies</h3>
+
+	<p>There are many options for building a dynamic server-side site. Common choices are:</p>
+	<p>Ruby on Rails</p>
+
+	<p>PHP</p>
+
+	<p>Django</p>
+
+	<p>node.js</p>
+
+	<p>WordPress</p>
+
+</div>
+
+<div class="class-page-block">
+	<h4>Putting up a website</h4>
+
+	<p>If you want to put up your own website at your own domain name you need two things:</p>
+
+		<ol>
+			<li>A web server to serve your site</li>
+			<li>A domain name to point towards it</li>
+		</ol>
+
+	<p>There are many options for web servers - you don not have to physically have your own one. Many companies that will offer web hosting, often providing you with some space on a shared server. Later in the course we will use the free hosting offered by GitHub through GitHub Pages.</p>
+
+	<p>To buy a domain name you need to use a domain registrar. This is not necessary for our course, but it will be useful to know how they work.</p>
+
+	<p>Examples include one.com, 123-reg.co.uk, godadd.com and namecheap.com. You pay the registrar to contact the body who manages a TLD (e.g. .com, .org., .co.uk) and put your server's IP address in their DNS address book.</p>
+
+	<p>Many domain registrars will try to sell you hosting and other site building tools when you buy a domain. It's important to remember that the domain name is completely separate from the hosting and you do not need to do them both through the same company - do not buy anything you are not going to use.</p>
+
+</div>
+
+<div class="class-page-block">
+	<h2>Chapter 4 - Creating an HTML Page </h2>
+	<p>One of the nice things about HTML is you do not need any fancy software to test it out on your laptop: all you need is a text editor and a web browser.</p>
+	<h4>Task:</h4>
+		<ol>
+			<li>Create a folder called coding_course to hold all your work for the course.</li>
+			<li>Inside your coding_course folder create another fodler called first_site</li>
+			<li>Open your text editor</li>
+			<li>Write 'Hello'</li>
+			<li>Save the fole as index.html in the first_site folder</li>
+			<li>Open index.html in Chrome. Depending on your version of Chrome</li>
+			<li>File>Open</li>
+			<li>Cmd-o (Mac) or Ctrl-o(Windows)<li>
+</ol>
+</div>
+
+
+<div class="class-page-block">
+	<h4>Why index.html?</h4>
+	<p>Navigating a website was a lot more like moving around the folder system on your laptop. You would go to a base site and there would just be a list of the files and folders available: an index. Because of this index.html is still the default file that a server will serve when you navigate to a folder in the web browser.</p>
+</div>
+
+<div class="class-page-block">
+	<h4>Task:</h4>
+		<ol>
+			<li>Go back to 'index.html' in your text editor</li>
+			<li>Change the text to:<li>
+			<li>&lt;h1&gt; Hello &lt;h1&gt; </li>
+			<li>Save 'index.html' - Cmd-S[Mac] or Ctrl-s [Windows]. Hint; if there is a circle next to your file tab in your text editor, it's not saved!</li>
+			<li>Go back to 'index.html' in Chrome and refresh the page (Cmd-R [Mac] or Ctrl-R [Windows]</li>
+		</ol>
+		<p>This is your first line of HTML. It has an open tag and a close tag. They tell your browser to display the text in-between as a heading.</p>
+</div>
+
+<div class="class-page-block">
+	<h2>Chapter 5 - HTML Basics </h2>
+	<h4>Elements,Tags and Attributes</h4>
+	<p> HTML uses a predefined set of elements for different types of content: they define the semantic value (or meaning) of their content. Elements include two matching tags and everything in between. They contain one or more "tags" which either contain or express content.</p>	
+	<p>For example, the "p" element indicates a paragraph; the "img" element indicates an image.</p>	
+	<p>HTML attaches special meaning to anything that starts with the less-than sign ("<") and ends with the greater-than sign (">"). Such markup is called a t​ag​.</p>	
+	<p>Tags are enclosed by angle brackets, and the closng tag begins with a forward slash.</p>		
+	<p>Make sure to close the tag, as some tags are closed by default, whereas others might produce 
+	unexpected errors if you forget the end tag. An example of a tag that closes by default is the image tag.</p>
+	<div class="class-example"><p>img scr="smileyface.jp" alt=Smileyface"></p></div>
+	<p>The start tag may contain additional information, also known as an attribute. Attributes usually consist of 2 parts, its name and corresponding value. In the example below, the attribute name is "class", and the class of the div is "main".</p>
+ </div>
+
+ <div class="class-page-block">	
+	<h4>Good Code</h4>
+	<p> To write good code, you must properly nest start and closing tags, that is, wrote close tags in the opposite order from the start tags.</p>
+	<p>Valid code:</p>
+		<div class="class-example">
+			<p> &lt;div&gt;</p>
+			<div class="tab1"><p>&lt;p&gt;</p></div>
+			<div class="tab2"><p>&lt;em&gt; &lt; strong &gt; really&lt; strong &gt; mean that &lt;em&gt;</p></div>
+			<div class="tab2"><p>&lt;p&gt;</p></div>
+			<p>&lt;div&gt;</p>
+		</div>
+</div>
+</li>
+
+<!-- Footer -->
+    <footer>
+		<div class="footer">
+	        <div class="row">
+	        	<div class="newsletter">
+			    	<div class="col-md-8">
+			        	<p>Sign up to find out about tech news and upcoming courses and events</p>
+			            <div class="input-group">
+			               <input type="email address" placeholder="email address" class="form-control">
+			               <span class="input-group-btn"><button onclick="window.location.href='/page2'">get started</button></span>
+			            </div>
+			        </div>
+	            </div>
+	            <div class="socialicons">
+		            <div class="col-md-4">
+		                <a class="twittericon" target="_blank" href="https://twitter.com/CodeFirstGirls"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		                <a class="facebookicon" target="_blank" href="https://www.facebook.com/codefirstgirlsgeneral"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+		                <a class="githubicon" target="_blank" href="https://github.com/CodeFirstGirls"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+		                <a class="codepenicon" target="_blank" href="http://codepen.io/search/pens?q=code+first+girls&limit=all&type=type-pens"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+		            </div>
+	        	</div>
+	        </div>
+
+	        <div class="row">
+	        	<div class="footerlinks">
+		        	<div class="col-md-3">
+		                <h4><span>Tech News</span></h4>
+		                <p><a href="http://www.cnet.com/uk/">Cnet</a></p>
+		                <p><a href="http://www.techradar.com/">Tech Radar</a></p>
+		                <p><a href="http://mashable.com/">Mashable</a></p>
+		                <p><a href="https://techcrunch.com/">Techcrunch</a></p>
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Learn More</span></h4>
+		                <p><a href="https://dash.generalassemb.ly/">Dash GA</a></p>
+		                <p><a href="https://www.codeavengers.com/">Code Avengers</a></p>
+		                <p><a href="https://www.codecademy.com/">Code Academy</a></p>
+		                <p><a href="https://www.udacity.com/">Udacity</a></p>
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Women in Tech</span></h4>
+		                <p><a href="https://girlsintechuk.com/">Girls in Tech</a></p>
+		                <p><a href="http://www.women-in-technology.com/">Women in Technology</a></p>
+		                <p><a href="http://girlsintech.org/">Girl in Tech</a></p>
+		                <p><a href="https://www.womenwhocode.com/london">Who Who Code</a></p>
+
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Blogs</span></h4>
+		                <p><a href=http://www.girlabouttech.com/>Girl About Tech Blog</a></p>
+		                <p><a href=http://hackerchick.com/>Hacker Chick Blog</a></p>
+		                <p><a href=http://www.techmamas.com/>Tech Mamas Blog</a></p>
+		                <p><a href="https://www.girldevelopit.com/">Mina Markham</a></p>
+
+		            </div>
+		        </div>
+			</div>
+        </div> 
+    </footer>   
+
+
+</body>
+</html>

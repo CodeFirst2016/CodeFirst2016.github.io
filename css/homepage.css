@@ -13,7 +13,7 @@ h4 {
 h1 {font-size: 55px; padding-bottom: 20px;}
 h2 {font-size: 40px; padding-bottom: 20px;}
 h3 {font-size: 30px;}
-h4 {font-size: 20px;}
+h4 {font-size: 17px;}
 
 p {font-family: 'Inconsolata';
     color: #F64C3F;
@@ -102,6 +102,17 @@ a:active {
 
 
 /* Class 2 */
+
+ 
+.homework-video {
+       display: block;
+       position: relative;
+       margin: auto;
+       left: 7.5%;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       border-top: 2px #ffffff solid;
+   }
 
 .page-block, 
 .page-block-classes  {
@@ -292,7 +303,10 @@ p#pageintro {margin-bottom: 100px;}
 /* Footer */
 
 
-footer p, h1, h2, h3, h4 {color: #ffffff;}
+footer p {color: #ffffff;}
+
+footer h4 {color: #ffffff;}
+
 footer a {color: #ffffff;}
 
 .input {
