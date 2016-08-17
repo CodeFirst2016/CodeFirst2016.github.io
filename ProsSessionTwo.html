@@ -1,15 +1,61 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	        <title>CODE FIRST: GIRLS Session 2</title>
-
-	           <!-- Custom CSS -->
-			<link href="css/homepage.css" rel="stylesheet">
-        	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-        	<link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
-    </head>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+    <meta name="author" content="">
+    <title>Session 2</title>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="css/bootstrap/css/font-awesome.min.css">
+    <!-- Bootstrap theme -->
+	<link href="css/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+	<link href="css/homepage.css" rel="stylesheet">
+    <!-- JS -->
+	    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	    <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+</head>
 
 <body>
+
+<!-- NavBar -->
+<nav id="Navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="Homepage.html">Code First Girls</a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes <span class="caret"></span></a>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML Basics</a></li>
+                        <li><a href="#">CSS Basics</a></li>
+                        <li><a href="#">GitHub Basics</a></li>
+                        <li><a href="#">APIs & Frameworks</a></li>
+                        <li><a href="#">Bootstrap Basics</a></li>
+                        <li><a href="#">jQuery Basics</a></li>
+                        <li><a href="#">Website Metrics & Hosting</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="About.html">About</a></li>
+                <li><a href="BraveWomen.html">Brave Women</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><button type="submit" class="btn btn-default">Start coding</button></li> 
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
 
 <!-- Intro -->
 
@@ -18,6 +64,7 @@
 	<div class="class-typography">
 		<h1>Session 2: CSS Basics</h1> 
 	</div>
+</div>
 </div>
 
 <div class="class-page-block">
@@ -158,7 +205,7 @@
 <div class="class-page-block">
 	<div class="class-typography">
 		<h2><em>3. Document-relative links</em></h2>
-		<p>Document-relative links contain the path to the resource relative to the file where the link is written. Document-relative links don&apos;t begin with /:
+		<p>Document-relative links contain the path to the resource relative to the file where the link is written. Document-relative links don&apos;t begin with /:</p>
 
 		<div class="class-example">
 			<div class="tab1"><p>&lt;!-- in index.html --&gt;</p></div>
@@ -172,20 +219,123 @@
 		<p>To link to the stylesheet from  index.html  we use  stylesheets/main.css  which says &quot;look in the same folder I&apos;m in ( first_site ) and find a folder called styleheets  and a file in it called main.css&quot;.</p>
 		<p>To link to the image from the stylesheet is slightly more complicated: we use  ../images/background.jpg.  This means &quot;go to the folder above the one I&apos;m in (I&apos;m in  stylesheets , so that&apos;s first_site)  and find a folder called  images  and a file in it called  background.jpg&quot;.</p>
 </div>
+</div>
 
 <br>
 
 <div class="class-page-block">
 	<div class="class-typography">
 	<h2>Important to know</h2>
-
-	<p>In document-relative links (and in many other places e.g. command line navigation):<p>
+	<p>In document-relative links (and in many other places e.g. command line navigation):</p>
 	<ul>
 		<li>. means in the folder <em>that I&apos;m in</em></li>
 		<li>.. means in the folder <em>above the one that I&apos;m in</em></li>
 	</ul>
 	<p>Relative links are the most flexible - they will work on your local file system. The only think you have to be careful about is moving your files into different folders, which can cause links to break.</p>
 	<p><strong>You should be using relative local links in these exercises.</strong></p>
+</div>
+</div>
+
+
+
+
+
+<div class="class-page-block">
+	<div class="class-typography">
+		<h2>Session 2 Homework</h2>
+		<ol>
+			<li>Read <a href=https://guides.github.com/activities/hello-world/>this guide</a> and <a href=https://guides.github.com/introduction/getting-your-project-on-github/>this guide</a> on how to use GitHub and version control - <strong>This is vital.</strong></li>
+			<li>Watch the below in-depth video about how the internet works, for Front-End Devs:</li>
+
+<div class="homework-video">
+		<iframe width="560" height="315" display:"inline-block" src="https://www.youtube.com/embed/e4S8zfLdLgQ" frameborder="0" allowfullscreen></iframe>
+</div>
+		<li>Complete the whole of Project 3 on the General Assembly Dash site.</li>
+		<li>Find out what Framework, API, Library, and Toolkit development concepts are.</li>
+		<li>(Optional) Read this article about absolute vs. relative links.</li>
+	</ol>
+</div>
+</div>
+
+
+<!-- Footer -->
+    <footer>
+		<div class="footer">
+	        <div class="row">
+	        	<div class="newsletter">
+			    	<div class="col-md-8">
+			        	<p>Sign up to find out about tech news and upcoming courses and events</p>
+			            <div class="input-group">
+			               <input type="email address" placeholder="email address" class="form-control">
+			               <span class="input-group-btn"><button onclick="window.location.href='/page2'">get started</button></span>
+			            </div>
+			        </div>
+	            </div>
+	            <div class="socialicons">
+		            <div class="col-md-4">
+		                <a class="twittericon" target="_blank" href="https://twitter.com/CodeFirstGirls"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		                <a class="facebookicon" target="_blank" href="https://www.facebook.com/codefirstgirlsgeneral"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+		                <a class="githubicon" target="_blank" href="https://github.com/CodeFirstGirls"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+		                <a class="codepenicon" target="_blank" href="http://codepen.io/search/pens?q=code+first+girls&limit=all&type=type-pens"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+		            </div>
+	        	</div>
+	        </div>
+
+	        <div class="row">
+	        	<div class="footerlinks">
+		        	<div class="col-md-3">
+		                <h4><span>Tech News</span></h4>
+		                <p><a href="http://www.cnet.com/uk/">Cnet</a></p>
+		                <p><a href="http://www.techradar.com/">Tech Radar</a></p>
+		                <p><a href="http://mashable.com/">Mashable</a></p>
+		                <p><a href="https://techcrunch.com/">Techcrunch</a></p>
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Learn More</span></h4>
+		                <p><a href="https://dash.generalassemb.ly/">Dash GA</a></p>
+		                <p><a href="https://www.codeavengers.com/">Code Avengers</a></p>
+		                <p><a href="https://www.codecademy.com/">Code Academy</a></p>
+		                <p><a href="https://www.udacity.com/">Udacity</a></p>
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Women in Tech</span></h4>
+		                <p><a href="https://girlsintechuk.com/">Girls in Tech</a></p>
+		                <p><a href="http://www.women-in-technology.com/">Women in Technology</a></p>
+		                <p><a href="http://girlsintech.org/">Girl in Tech</a></p>
+		                <p><a href="https://www.womenwhocode.com/london">Who Who Code</a></p>
+
+		            </div> 
+
+		            <div class="col-md-3">
+		                <h4><span>Blogs</span></h4>
+		                <p><a href=http://www.girlabouttech.com/>Girl About Tech Blog</a></p>
+		                <p><a href=http://hackerchick.com/>Hacker Chick Blog</a></p>
+		                <p><a href=http://www.techmamas.com/>Tech Mamas Blog</a></p>
+		                <p><a href="https://www.girldevelopit.com/">Mina Markham</a></p>
+
+		            </div>
+		        </div>
+			</div>
+        </div> 
+    </footer>   
+
+<div class="class-page-block">
+	<div class="class-typography">
+		<h2>Session 2 Homework</h2>
+		<ol>
+			<li>Read <a href=https://guides.github.com/activities/hello-world/>this guide</a> and <a href=https://guides.github.com/introduction/getting-your-project-on-github/>this guide</a> on how to use GitHub and version control - <strong>This is vital.</strong></li>
+			<li>Watch the below in-depth video about how the internet works, for Front-End Devs:</li>
+
+<div class="homework-video">
+		<iframe width="560" height="315" display:"inline-block" src="https://www.youtube.com/embed/e4S8zfLdLgQ" frameborder="0" allowfullscreen></iframe>
+</div>
+		<li>Complete the whole of Project 3 on the General Assembly Dash site.</li>
+		<li>Find out what Framework, API, Library, and Toolkit development concepts are.</li>
+		<li>(Optional) Read this article about absolute vs. relative links.</li>
+	</ol>
+</div>
 </div>
 
 </body>
