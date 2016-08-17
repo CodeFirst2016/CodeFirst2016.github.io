@@ -292,7 +292,10 @@ p#pageintro {margin-bottom: 100px;}
 /* Footer */
 
 
-footer p, h1, h2, h3, h4 {color: #ffffff;}
+footer p {color: #ffffff;}
+
+footer h4 {color: #ffffff;}
+
 footer a {color: #ffffff;}
 
 .input {
