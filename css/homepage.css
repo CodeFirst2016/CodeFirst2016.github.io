@@ -53,6 +53,13 @@ button {
     padding: 6px 20px 10px;
 }
 
+button a {
+    color: #ffffff;
+}
+
+button a:hover {
+    color: #ffffff;
+}
 
 button a {
     color: #ffffff;
@@ -93,7 +100,7 @@ a:active {
     margin: auto;
     }
 
-.intro {padding: 40px;}
+
 
 .session0, 
 .session1, 
