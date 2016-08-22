@@ -58,8 +58,16 @@ button a {
     color: #ffffff;
 }
 
+button a:hover {
+    color: #ffffff;
+}
 
-button:hover {background-color: #383838;}
+
+
+button:hover {
+    background-color: #ffffff;
+    color: #F64C3F;
+    border: 3px solid #F64C3F;}
 
 .page-block-classes button {margin-top: 20px;}
 
@@ -87,8 +95,6 @@ a:active {
     max-width: 1020px; 
     margin: auto;
     }
-
-.intro {padding: 40px;}
 
 .session0, 
 .session1, 
@@ -347,13 +353,25 @@ footer a {color: #ffffff;}
     background-color: #F64C3F;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 100%
-    height: 100%
+    margin-top: 100px;
 }
 
 .footerlinks {
     padding-top: 100px;
 
+}
+
+#events {padding-top: 80px}
+
+#applycta {
+    background-color: #F7F5F4;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+
+#applycta button {
+    margin-top: 30px;
 }
 
 
