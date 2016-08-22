@@ -64,7 +64,10 @@ button a:hover {
 
 
 
-button:hover {background-color: #383838;}
+button:hover {
+    background-color: #ffffff;
+    color: #F64C3F;
+    border: 3px solid #F64C3F;}
 
 .page-block-classes button {margin-top: 20px;}
 
@@ -359,5 +362,17 @@ footer a {color: #ffffff;}
 }
 
 #events {padding-top: 80px}
+
+#applycta {
+    background-color: #F7F5F4;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+
+#applycta button {
+    margin-top: 30px;
+}
+
 
 
